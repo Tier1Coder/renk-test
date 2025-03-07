@@ -1,0 +1,6 @@
+services:
+  tests:
+    build: .
+    image: selenium-tests:latest
+    volumes:
+      - ./:/app
